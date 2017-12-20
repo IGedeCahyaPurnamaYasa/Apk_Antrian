@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="Nama"
+        android:inputType="text"
+        android:id="@+id/nama"
+        android:layout_marginTop="15dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="No Tlp"
+        android:inputType="text"
+        android:id="@+id/no_tlp"
+        android:layout_below="@id/nama"
+        android:layout_marginTop="15dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="Tgl Lahir"
+        android:inputType="text"
+        android:id="@+id/tgl_lahir"
+        android:layout_below="@id/no_tlp"
+        android:layout_marginTop="15dp"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="Button"
+        android:id="@+id/klik"
+        />
+</RelativeLayout>
